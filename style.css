@@ -3,7 +3,12 @@ body {
     }
 .jumbotron {
         background-color: cadetblue;
+        text-shadow: #000 2px 2px;
     }
+
+.btn {
+    text-shadow: none;
+}
 
 .background-header {
     background-image: url(Images/banner1.jpg);
