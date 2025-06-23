@@ -19,3 +19,8 @@ body {
     background-size: cover;
     position: relative;
 }
+
+.service-style {
+    margin-top: 15px;
+    background-color: blue;
+}
