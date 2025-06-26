@@ -24,3 +24,7 @@ body {
     margin-top: 15px;
     background-color: blue;
 }
+
+.text-green {
+    color: rgba(128, 255, 0, 0.616);
+}
