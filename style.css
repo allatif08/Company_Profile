@@ -35,7 +35,7 @@ body {
 
 h2::before,
 h2::after{
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     content: "";
     display: inline-block;
     height: 1px;
@@ -49,6 +49,26 @@ h2::before{
     margin-left: -50%;
 }
 h2::after{
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.produk-kami::before,
+.produk-kami::after{
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.produk-kami::before{
+    right: 0.5em;
+    margin-left: -50%;
+}
+.produk-kami::after{
     left: 0.5em;
     margin-right: -50%;
 }
