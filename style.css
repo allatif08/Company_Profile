@@ -72,3 +72,14 @@ h2::after{
     left: 0.5em;
     margin-right: -50%;
 }
+
+.button-sekunder {
+    background-color:transparent;
+    border-color: rgb(217, 206, 206);
+    color: rgb(0, 0, 0);
+}
+.button-sekunder:hover{
+    background-color: rgb(101, 191, 239);
+    border-color: black;
+    color: aliceblue;
+}
