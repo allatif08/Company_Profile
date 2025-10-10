@@ -83,3 +83,28 @@ h2::after{
     border-color: black;
     color: aliceblue;
 }
+
+.tentang-kami::before,
+.tentang-kami::after{
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.tentang-kami::before{
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.tentang-kami-kami::after{
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.cover {
+    background: no-repeat center/cover;
+}
