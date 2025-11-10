@@ -41,7 +41,7 @@ h2::after{
     height: 1px;
     position: relative;
     vertical-align: middle;
-    width: 50%;
+    width: 29%;
 }
 
 h2::before{
@@ -61,7 +61,7 @@ h2::after{
     height: 1px;
     position: relative;
     vertical-align: middle;
-    width: 50%;
+    width: 49%;
 }
 
 .produk-kami::before{
@@ -92,7 +92,7 @@ h2::after{
     height: 1px;
     position: relative;
     vertical-align: middle;
-    width: 50%;
+    width: 37%;
 }
 
 .tentang-kami::before{
@@ -107,4 +107,25 @@ h2::after{
 
 .cover {
     background: no-repeat center/cover;
+}
+
+.kontak::before,
+.kontak::after{
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 28%;
+}
+
+.kontak::before{
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.kontak::after{
+    left: 0.5em;
+    margin-right: -50%;
 }
